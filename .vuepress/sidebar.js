@@ -19,6 +19,11 @@ module.exports = [
     collapsable: false,
     children: prefix('/commands', [
       '',
+      'create-unit',
+      'delete-unit',
+      'make-controller',
+      'make-model',
+      'make-migration'
     ]),
   }
 ]

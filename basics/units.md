@@ -20,8 +20,14 @@ By default, all units will be stored  within the  `app/Laraset/units` directory.
 This feature not yet available. we are planing to integrat it in future.
 :::
 ## Register Unit
-
+:::warning Not Yet Implimented
+this feature is not yet implimented
+:::
 ## In/Out Unit
-
+:::warning Not Yet Implimented
+this feature is not yet implimented
+:::
 ## Enable/Disable Unit
-
+:::warning Not Yet Implimented
+this feature is not yet implimented
+:::
