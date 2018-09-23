@@ -11,6 +11,7 @@ module.exports = [
     collapsable: false,
     children: prefix('/basics', [
       '',
+      'installation',
       'units',
     ]),
   },

@@ -1,15 +1,29 @@
-# The Basics
+# Introduction
 
-**Laraset** is a module manager using Laravel artisan CLI. Tt's targets all preset Laravel uses. it has the ability to Create Delete Units that wrap all [laravel](https://laravel.com) features & preset used in one folder that can exported or event imported from project to another. for now we still in dev phase and supporting only [vuejs](https://vuejs.org) 2.*
-:::warning Export/Import
-This feature not yet available. we are planing to integrat it in future.
+Before starting to use `laraset` you need to have basic knowledge in [`laravel`](https://laravel.com) and at least [`vuejs`](https://vuejs.org).
+
+## Why Laraset
+
+After using `Laravel` you will for sure hear of `vuejs` and try it. and of course you will **LOVE IT**.
+like me, i've start using `vuejs` and `laravel` in multiple project. **BUT** in most of project i was copy/past a lot of code specialy `components` trying not to forget any dependency and so on.
+Then `Laraset` idea comes to me :<br>
+
+>Why not a system when you can set Vuejs Components And Laravel Controller and Both routes with Database Migration in the same folder that present a specific Logic or Package ?!
+
+Then name **`Laraset`** comes from **`Lara`**~~vel~~ and ~~pre~~**`set`**, for meaning that this System/Package is for all `Laravel` presets like `vuejs`, `reactjs`, `tailwindcss`, `bootstrap`.
+:::tip Support
+For the current version we support only `vuejs`
 :::
-## To use Laraset
+## I'm Not Convinced !!
 
-By default, Laraset in not installed to use it you should run `laraset:install` command :
+Yeah you can't just start using some package from nobody. you need to tested and find the right cause / needs to use it and fulfill what you are lacking.
+I will list some of `Laraset` feature that i believe are the most needed :
+- **usability** : laravel is the most popular framework out there and `laraset` use full extension of it
+- **modularity** : `laraset` use `unit` as a module that contain all your logic
+- **export/import** : you can import export `unit` after all they use the same structure and logic
+- **one page applications** : you can use modular system and one page application using both `laravel` and `vuejs`(_example_) in the same `unit`
 
-```bash
-php artisan laraset:install
-```
-Then `Laraset` Folder will be generated within `app` Folder.
+## Ok, now How to use Laraset
 
+To use Laraset is to simple just follow [installation](/basics/installation.html) instructions.<br>
+Hope you find this helpful
